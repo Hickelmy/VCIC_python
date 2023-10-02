@@ -1,0 +1,14 @@
+opencv-python
+matplotlib
+tensorflow
+joblib
+PyQt5
+opencv-python-headless
+numpy
+scikit-learn
+beautifulsoup4
+requests
+urllib3
+lxml
+user-agent
+Pillow
