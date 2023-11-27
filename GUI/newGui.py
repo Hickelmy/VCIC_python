@@ -187,10 +187,10 @@ class App(ctk.CTk):
 
     def capture_images(self, nameid):
         video = cv2.VideoCapture(0)
-        facedetect = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+        facedetect = cv2.CascadeClassifier("../haarcascade_frontalface_default.xml")
         count = 0
 
-        while count < 20:
+        while count < 100:
             ret, frame = video.read()
             faces = facedetect.detectMultiScale(frame, 1.3, 5)
             for x, y, w, h in faces:
